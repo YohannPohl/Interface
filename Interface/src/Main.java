@@ -4,13 +4,13 @@ public class Main {
         Logger fileLogger = new FileLogger();
 
         // Log no console
-        consoleLogger.log("Mensagem de debug", LogLevel.DEBUG);
-        consoleLogger.log("Mensagem de aviso", LogLevel.WARNING);
-        consoleLogger.log("Mensagem de erro", LogLevel.ERROR);
+        consoleLogger.log("debug", LogLevel.DEBUG);
+        consoleLogger.log("aviso", LogLevel.WARNING);
+        consoleLogger.log("erro", LogLevel.ERROR);
 
         // Log no arquivo
-        fileLogger.log("Mensagem de debug", LogLevel.DEBUG);
-        fileLogger.log("Mensagem de aviso", LogLevel.WARNING);
-        fileLogger.log("Mensagem de erro", LogLevel.ERROR);
+        fileLogger.log("debug", LogLevel.DEBUG);
+        fileLogger.log("aviso", LogLevel.WARNING);
+        fileLogger.log("erro", LogLevel.ERROR);
     }
 }
